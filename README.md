@@ -1,6 +1,6 @@
 # TorScraper
 
-Step 1TorPyRussianExitNodeConnector
+# Step 1TorPyRussianExitNodeConnector
 
 # HTML Web Scraping Project
 # Step 1 Develop a Secure TOR Exit Note Connector of Oor Choice To Any Website
@@ -11,9 +11,9 @@ Step 1TorPyRussianExitNodeConnector
 # Step 6 Convert the results into Excel readable
 
 
-Intermediate Goals:
-1) Create PyExe program for Win32 system without pre-installed Python;
-2) Package the program using UPX;
+# Intermediate Goals:
+# 1) Create PyExe program for Win32 system without pre-installed Python;
+# 2) Package the program using UPX;
 
 
 ## More to come
