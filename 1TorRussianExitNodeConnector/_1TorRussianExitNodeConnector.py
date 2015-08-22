@@ -1,7 +1,9 @@
 ﻿#  Project TorScraper
-#  Read Website Through Tor Exit Node Of Our Choice
-#  Step 1: Development of Anonymous Login Session Through Tor Node Of Our Choosing
-#  Purpose: establish anonymity and secure connection via Tor
+#  Developed by Vitali Kremez
+#  Using Tor Python Module STEM.PROCESS
+#  Read Website Through Tor Exit Node of Our Choice
+#  Step 1: Development of Anonymous Login Session Through Tor Node of Our Choice
+#  Purpose: Establish Anonymity and Secure Connection via Tor
 #  Sample Program: Russian Tor Exit Node Through Port 9150 to Website ATAGAR.COM
 #  1) Important Note: Added Tor/Data/ files to %USER%/AppData/Roaming/tor
 #  2) Important Note: Make sure there is no other instance of tor.exe. Otherwise, we get an Exception Error.
@@ -60,6 +62,6 @@ tor_process = stem.process.launch_tor_with_config(
 )
 
 print(term.format("\nChecking our endpoint:\n", term.Attr.BOLD))
-print(term.format(query("https://www.atagar.com/echo.php"), term.Color.BLUE))
+print(term.format(query("https://www.rescator.cm"), term.Color.BLUE))
 
-tor_process.kill()  # stops tor.exe. It takes some time to gracefully shutdown the process
+tor_process.kill()  # Stops tor.exe proccess. It takes some time to gracefully shutdown the process.,k
