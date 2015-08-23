@@ -61,7 +61,7 @@ tor_process = stem.process.launch_tor_with_config(
   init_msg_handler = print_bootstrap_lines,
 )
 
-print(term.format("\nChecking our endpoint:\n", term.Attr.BOLD))
+print(term.format("\nChecking our endpoint:\n", term.Attr.BOLD))cd
 print(term.format(query("https://www.rescator.cm"), term.Color.BLUE))
 
 tor_process.kill()  # Stops tor.exe proccess. It takes some time to gracefully shutdown the process.,k
