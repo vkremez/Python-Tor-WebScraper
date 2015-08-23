@@ -40,7 +40,7 @@ Subsection A:
 # d. Select the values that need to be scraped from HTML source code; and
 # e. Write the results to file "%USER%/result.html".
 
-# ============================================================================================================================================================================================================
+# ======================================================== #
 
 # Work In Progress on Step II:
 # a. Add time values to the file name such as "result_8_22_15_5_23_PM.html";
