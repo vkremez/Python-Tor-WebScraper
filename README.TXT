@@ -1,0 +1,50 @@
+# TorScraper
+
+# HTML Web Scraping Project
+# Step 1 Develop a Secure TOR Exit Note Connector of Oor Choice To Any Website
+# Step 2 Add urllib2 scraping ability with secure cookie and PHPSession ID logons
+# Step 3 Scrape the web page content for the necessary information using Regular Expressions
+# Step 4 Grab this information, write it to the file and save to the designated location
+# Step 5 Perform recursive scraping and save the results to the directory\files
+# Step 6 Convert the results into Excel readable
+
+# I.  Step 1TorPyRussianExitNodeConnector
+#     Read Website Through Tor Exit Node of Choice
+
+#  Using Tor Python Module STEM.PROCESS
+#  Subsection A: 
+#  Goal:  Development of Anonymous Login Session Through Tor Node of Our Choice
+#  Purpose: Establish Anonymity and Secure Connection via Tor Nodes
+#  Sample Program: Russian Tor exit node through port 9150 to website RESCATOR.CM
+
+#  Recommendation:
+#  1) Important Note: Add Tor/Data/ files to %USER%/AppData/Roaming/tor
+#  2) Important Note: Make sure there is no other instance of tor.exe. Otherwise, we get an Exception Error
+
+# Work In Progress on Step I:
+# a. Add other content;
+# b. Validate other IPs;
+# c. Provide user input (cin, input, etc.) to get to the website of choice.
+
+# Intermediate Goals:
+# 1) Create PyExe program for Win32 system without pre-installed Python; and
+# 2) Package the program using UPX.
+
+# II. Step 2HTML Source Code Scraper
+#     HTML Parser For <p> Values and Other Dynamic HTML Content
+
+Subsection A: 
+# a. Set up a website connector by using Py modules urllib and urllib2;
+# b. Import Py module re as "Regular Expressions" to the program;
+# c. Make sure to edit 'cookie', 'fusion_visited', 'fusion_user', 'PHPSESSID' and '__atuvc' values. [Extract this information from a browser session that would use a springboard for the scarping function.]; 
+# d. Select the values that need to be scraped from HTML source code; and
+# e. Write the results to file "%USER%/result.html".
+
+# ============================================================================================================================================================================================================
+
+# Work In Progress on Step II:
+# a. Add time values to the file name such as "result_8_22_15_5_23_PM.html";
+# b. Add the recursive function that would walk the website "next page" and continue writing files; and
+# c. Finish writing files as the next button reaches the end and terminates the process.
+
+## To Be Continued
