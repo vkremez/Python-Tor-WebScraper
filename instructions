@@ -15,12 +15,13 @@
 
 # Setup:
 # 1. Feel free to change the default scraping directory from C:\%USERPROFILE%\iMacros\Download
-# 2. Adjust the URL and website needs fields "URL GOTO" and "TAG POS"" 
+# 2. Adjust the URL and website needs fields "URL GOTO" and "TAG POS"
+# 3. Adjust the pause value to increase or decrease waiting time.
 
 # Operation:
 # 1. Adds time values to the file name such as "result_8_22_15_5_23_PM.html";
 # b. Adds the recursive function that would walk the website "next page" and continue writing files; and
-# c. Finishs writing files as the next button reaches the end and terminates the process.
+# c. Finishes writing files as the next button reaches the end and terminates the process.
 
 
 # Developer's Notes:
