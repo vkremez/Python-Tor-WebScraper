@@ -5,8 +5,9 @@
 # Here are the following objects that are met by the program:
 # 1. Scrape the content silently without triggering any bot alerts and any other DDOS protection alerts;
 # 2. Save the HTML table in the local directory with timestamps;
-# 3. Extract and pull any other useful data from the website tables; and
-# 4. Run through all available pages of the website credit card data HTML data.
+# 3. Extract and pull any other useful data from the website tables; 
+# 4. Blend with the crowd and avoid being robo-detected; and
+# 5. Run through all available pages of the website credit card data HTML data.
 
 # Requirements:
 # 1. Set up a username for the website;
