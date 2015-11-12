@@ -15,7 +15,7 @@
 #  Subsection A: 
 #  Goal:  Development of Anonymous Login Session Through Tor Node of Our Choice
 #  Purpose: Establish Anonymity and Secure Connection via Tor Nodes
-#  Sample Program: Russian Tor exit node through port 9150 to website RESCATOR.CM
+#  Sample Program: Russian Tor exit node through port 9150 to website GOOGLE.COM
 
 #  Recommendation:
 #  1) Important Note: Add Tor/Data/ files to %USER%/AppData/Roaming/tor
