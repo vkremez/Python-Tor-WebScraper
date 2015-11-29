@@ -22,7 +22,7 @@ import urllib2, re
 import urllib
 opener = urllib2.build_opener()
 opener.addheaders.append(('cookie', 'fusion_visited=yes;PHPSESSID=b76c27c31bf5b962fa4aea08dba863ba;fusion_user=18389.4c937e11d5117f0f16e60ef16a1c7c92;__atuvc=my__atuvc'))
-response = opener.open('http://rescator.cm/index.php','')
+response = opener.open('http://______/index.php','')
 data = response.read()
 regex = r"<code style='white-space:nowrap'>.*<code style='white-space:nowrap'>(.*)</code>"
 result = re.search(regex, data, re.DOTALL)
