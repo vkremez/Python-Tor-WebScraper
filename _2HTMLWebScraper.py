@@ -44,7 +44,7 @@ print result
 
 values = {'string':result,'submitbutton':'12 seconds to Submit',"CSRF_TOKEN":"<?php echo $_SESSION['CSRF_TOKEN'];?>"}
 post_data = urllib.urlencode(values)
-response = opener.open('http://rescator.cm/index.php', post_data)
+response = opener.open('http://_________/index.php', post_data)
 file_handle = open('result.html', 'w')
 while 1:
     data = response.read()
